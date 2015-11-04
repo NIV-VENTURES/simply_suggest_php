@@ -9,7 +9,7 @@ $objects = $user->loadRecommendations();
 
 var_dump($objects);
 
-$user    = new \SimplySuggest\Object(501, "series");
-$objects = $user->loadRecommendations();
+$object  = new \SimplySuggest\Object(501, "series");
+$objects = $object->loadRecommendations();
 
 var_dump($objects);

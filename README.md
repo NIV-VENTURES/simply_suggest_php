@@ -22,8 +22,8 @@ Basic usage looks like this
 $user    = new \SimplySuggest\User(1);
 $objects = $user->loadRecommendations();
 
-$user    = new \SimplySuggest\Object(1, "article");
-$objects = $user->loadRecommendations();
+$object  = new \SimplySuggest\Object(1, "article");
+$objects = $object->loadRecommendations();
 ```
 
 ## Documentation
